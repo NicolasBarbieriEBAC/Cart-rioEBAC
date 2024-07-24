@@ -141,6 +141,7 @@
  	 printf("\t1 - Registrar nomes:\n\n");
  	 printf("\t2 - consultar nomes:\n\n");
  	 printf("\t3 - Deletar nomes:\n\n");
+ 	 printf("\t4 - encerrar programa\n\n");
  	 printf("escolha a opção:");
  	          
 
@@ -167,6 +168,12 @@
  	   	 case 3:
  	   	deletar();
  	   	break;
+ 	   	
+ 	   	case 4:
+ 	   	printf("Encerrado! Obrigado por utilizar o programa");
+		return 0;
+		break;
+				
  	   	
  	     default:
  	    printf("Opção não disponivel\n");
